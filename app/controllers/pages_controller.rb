@@ -19,9 +19,10 @@ class PagesController < ApplicationController
     @movie_title = @my_json.entries[1][1][1]["original_title"]
     @movie_overview = @my_json.entries[1][1][1]["overview"]
     @movie_rating = @my_json.entries[1][1][1]["vote_average"]
+    @movie_release = @my_json.entries[1][1][1]["release_date"]
+
 
     @my_link = "https://image.tmdb.org/t/p/w500/#{my_poster}"
-
     # @movie_title = @my_json.entries[9]
 
     # https://api.themoviedb.org/3/search/movie?api_key=#{my_key}&query=#{movie}
