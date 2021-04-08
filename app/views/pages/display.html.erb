@@ -1,0 +1,13 @@
+<h1>
+  Teste
+</h1>
+
+<div>
+  <% @my_json.each do |element| %>
+    <%= element[1][1] %>
+    <p>Link:<%= @my_json[1].to_s[1].to_s[1].to_s[2] %></p>
+    <h2>teste</h2>
+    <img src="<%= @my_json[1].to_s[1].to_s[1].to_s["poster_path"]%>">
+  <% end %>
+</div>
+
