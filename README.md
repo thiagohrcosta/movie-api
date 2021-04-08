@@ -1,5 +1,5 @@
 # README
-
+![main banner](https://github.com/thiagohrcosta/movie-api/blob/master/public/img/movieApi.png?raw=true)
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
