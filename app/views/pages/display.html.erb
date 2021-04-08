@@ -1,16 +1,24 @@
 <h1>
-  Teste
+  Movie Search API
 </h1>
 
 <hr>
 
 <div class="container">
-  <% @my_json.each do |element| %>
+    <img src="<%= @my_link %>" >
+    <h2><%= @movie_title %> </h2>
+    <span><%= @movie_rating %> </span>
+    <p><%= @movie_overview %> </p>
+
+<!--   <% @my_json.each do |element| %>
     <%= element[1] %>
     <%= @my_movie %>
     <p>Link:<%= @my_json[1].to_s[1].to_s[1].to_s[2] %></p>
     <h2>teste</h2>
-    <img src="<%= @my_link %>" >
   <% end %>
+ -->
+
+  <hr>
+
 </div>
 
